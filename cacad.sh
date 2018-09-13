@@ -21,21 +21,9 @@ bin=bash
 start=cacad
 #intro
 
-printf "${ijo}
-
-			 █████te ${biru}
-
-			 Necat
-
-				 9uzz
-
-"
-
-printf "${kuning}	_________________________________________________________________${NC}\n\n"
-
 rm award.tmp aid.txt info.tmp 2> /dev/null
 
-token='53b2d359c3e1351c38675b1eedd1ca9c'
+token='isi dengan token anda'
 printf "${kuning}[!]${NC} Checing Token..."
 
 checktoken=$(curl -s -d "token=$token" 'http://www.newscat.com/api/user/info' -o "info.tmp")
